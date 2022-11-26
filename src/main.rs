@@ -11,5 +11,5 @@ fn main() {
    
     lesson::ownership::main_ownership();
     let rect:Rect<i32> = Rect::new(0,0,800,400);
-    error!("Rect center is x = {}  y = {}",rect.centerX(),rect.centerY());
+    error!("Rect center is {}",rect.ToString());
 }
