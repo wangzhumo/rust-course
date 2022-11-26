@@ -18,8 +18,8 @@ impl<T:Display> Printable for Rect<T> {
 }
 
 impl<T:Display> Rect<T> {
-    pub fn new(l: T, t: T,r: T, b: T) -> Rect<T> {
-        Rect{l,t,r,b}
+    pub fn new(l: T, t: T,r: T, b: T) -> Self {
+        Self{l,t,r,b}
     }
 }
 
