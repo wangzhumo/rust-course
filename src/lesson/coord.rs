@@ -1,4 +1,6 @@
+//！为了演示泛型和Trait写的例子
 use std::fmt::Display;
+
 
 pub struct Rect<T:Display>{
     l: T,
