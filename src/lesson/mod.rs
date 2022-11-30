@@ -7,3 +7,4 @@
 pub mod ownership;
 pub mod coord;
 pub mod liferecycle;
+pub mod closure;
